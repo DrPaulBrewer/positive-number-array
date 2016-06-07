@@ -1,5 +1,9 @@
 positive-number-array
 ----------
+[![Build Status](https://travis-ci.org/DrPaulBrewer/positive-number-array.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/positive-number-array)
+[![Coverage Status](https://coveralls.io/repos/github/DrPaulBrewer/positive-number-array/badge.svg?branch=master)](https://coveralls.io/github/DrPaulBrewer/positive-number-array?branch=master)
+
+
 
 Parses input (string | array), returning an array of positive numbers.  Zero or negative numbers are ignored.
 
