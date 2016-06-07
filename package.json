@@ -1,0 +1,29 @@
+{
+  "name": "positive-number-array",
+  "version": "1.0.0",
+  "description": "parse string or array input, returning an array of positive numbers. Ignore zeros or negatives",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --slow 50 --timeout 2000",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/positive-number-array.git"
+  },
+  "keywords": [
+    "positive"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/positive-number-array#issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/positive-number-array#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "should": "^8.2.1"
+  }
+}
