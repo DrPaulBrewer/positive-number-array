@@ -21,7 +21,7 @@ None.  Suitable for usage on nodejs or on the browser, via browserify.
 
 ## Usage
 
-Pass a string or an array as input, returns a new array of positive numbers.
+Pass a string or an array or a JSON-stringified array as input, returns a new array of positive numbers.
 
 ```
 positiveNumberArray("1,2,3,4,5")
@@ -29,6 +29,7 @@ positiveNumberArray("1 2 3 4 5")
 positiveNumberArray("1  2  3  4  5 ")
 positiveNumberArray("1,2 3 4 5 ")
 positiveNumberArray([1,2,3,0,0,4,-1,5])
+positiveNumberArray("[1,2,3,4,5]")
 --> [1,2,3,4,5]
 ```
 

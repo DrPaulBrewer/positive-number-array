@@ -39,5 +39,9 @@ describe('', function(){
 	positiveNumberArray([1,2,3,0,0,4,-1,5]).should.deepEqual([1,2,3,4,5]);
     });
 
+    it("positiveNumberArray(JSON.stringify([2,7,1,8,2,8,1,8])) returns [2,7,1,8,2,8,1,8]", function(){
+	positiveNumberArray(JSON.stringify([2,7,1,8,2,8,1,8])).should.deepEqual([2,7,1,8,2,8,1,8]);
+    });
+
     
 });

@@ -12,6 +12,8 @@ module.exports = function(myInput){
     'use strict';
     if (typeof(myInput)==="string")
 	return (myInput
+		.replace(/^\[/,"")
+		.replace(/\]$/,"")
 		.replace(/,/g," ")
 		.split(/\s+/)
 		.map(toNumber)
