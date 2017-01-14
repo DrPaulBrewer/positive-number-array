@@ -15,6 +15,18 @@ describe('', function(){
 	positiveNumberArray('').should.deepEqual([]);
     });
 
+    it("positiveNumberArray(-1) returns []", function(){
+	positiveNumberArray(-1).should.deepEqual([]);
+    });
+
+    it("positiveNumberArray(NaN) returns []", function(){
+	positiveNumberArray(NaN).should.deepEqual([]);
+    });
+
+    it("positiveNumberArray(0.5) returns [0.5]", function(){
+	positiveNumberArray(0.5).should.deepEqual([0.5]);
+    });
+
     it("positiveNumberArray('1,2,3,4,5') returns [1,2,3,4,5]", function(){
 	positiveNumberArray('1,2,3,4,5').should.deepEqual([1,2,3,4,5]);
     });

@@ -19,6 +19,8 @@ module.exports = function(myInput){
 		.map(toNumber)
 		.filter(gt0)
 	       );
+    if (typeof(myInput)==="number")
+	return ((myInput>0)? [myInput]: []);
     if (Array.isArray(myInput))
 	return (myInput
 		.map(toNumber)
