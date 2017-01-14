@@ -28,6 +28,7 @@ positiveNumberArray("1,2,3,4,5")
 positiveNumberArray("1 2 3 4 5")
 positiveNumberArray("1  2  3  4  5 ")
 positiveNumberArray("1,2 3 4 5 ")
+positiveNumberArray("1 chicken 2 trolls 3 4 5 mylady")
 positiveNumberArray([1,2,3,0,0,4,-1,5])
 positiveNumberArray("[1,2,3,4,5]")
 --> [1,2,3,4,5]
