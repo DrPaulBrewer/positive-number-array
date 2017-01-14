@@ -31,6 +31,10 @@ describe('', function(){
 	positiveNumberArray("1\n0\n2 \n\n 3 \n\n 4 5").should.deepEqual([1,2,3,4,5]);
     });
 
+    it('positiveNumberArray("1 chicken 2 trolls 3 4 5 mylady") returns [1,2,3,4,5]', function(){
+	positiveNumberArray("1 chicken 2 trolls 3 4 5 mylady").should.deepEqual([1,2,3,4,5]);
+    });
+
     it("positiveNumberArray('1,2 3 4 5 ') returns [1,2,3,4,5]", function(){
 	positiveNumberArray('1,2 3 4 5 ').should.deepEqual([1,2,3,4,5]);
     });
