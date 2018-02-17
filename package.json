@@ -1,6 +1,6 @@
 {
   "name": "positive-number-array",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "parse string or array input, returning an array of positive numbers. Ignore zeros or negatives",
   "main": "index.js",
   "scripts": {
