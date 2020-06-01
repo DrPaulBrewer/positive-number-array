@@ -1,7 +1,7 @@
 positive-number-array
 ----------
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/DrPaulBrewer/positive-number-array.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/DrPaulBrewer/positive-number-array.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/positive-number-array)
 [![Coverage Status](https://coveralls.io/repos/github/DrPaulBrewer/positive-number-array/badge.svg?branch=master)](https://coveralls.io/github/DrPaulBrewer/positive-number-array?branch=master)
 
